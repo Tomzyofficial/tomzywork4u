@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- meta heads -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="work4u" content="description">
+  <meta name="keyword" content="website development, web site, developers">
+  <meta name="author" content="work4u">
+  <link rel="icon" href="images/logo3.png">
+  <!-- css style, bootstrap plugins, AOS plugins links, font icons plugins -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="bootstrap/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="'aos-master/dist/aos.css">
+  <link rel="stylesheet" href="aos-master/dist/aos.js">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+  <title>Tomzywork4u - Contact</title>
+</head>
+<style>
+  /* hero section */
+  .body{background-color: white; color: #000;}
+  .banner-content{
+      height: 50vh;
+      background-image: url(./images/keyboard.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-style: oblique;
+      background-position: center;
+  }
+  .wrapper-word{
+    transform: translate(25vw, 15vh);
+    background: transparent;
+  }
+  /* page content */
+  #form-container{
+    border: 8px dashed lightblue;
+    margin-top: 8rem;
+    color: lightblue;
+      
+  }
+  .contact-form{
+    padding: 50px 50px;
+  }
+  .form-group{
+    margin-top: 50px;
+  }
+  .social-handles{
+    margin-top: 25px;
+  }
+  .social-handles p a{
+    text-decoration: none;
+    color: lightblue;
+  }
+  .text-box h5{
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+  /* textarea{padding: 10px; background-color: whitesmoke; border: none} */
+  /* media query */
+  @media screen and (max-width: 991px) {
+    /* hero section */
+    .banner-content{
+      height: 30vh !important;
+    }
+    .wrapper-word{
+      transform: translate(0);
+      margin: 10vh auto;
+    }
+    #form-container{width: 80%;}
+    .contact-form{padding: 30px 0}
+    input, textarea{
+        width: 100%;
+    }
+  }
+  @media (width: 1024px) {
+    input, textarea{width: 100%}
+  }
+  @media (width: 280px) {
+    .text-box h5{font-size: 20px;}
+  }
+  @media (width: 820px) {
+    .wrapper-word{
+      margin: -20px auto;
+    }
+  }
+  @media (width: 768px) {
+    .wrapper-word{
+      margin: -20px auto;
+    }
+  }
+  @media (width: 912px) {
+    .wrapper-word{
+      margin: -20px auto;
+    }
+  }
+</style>
+<body class="body">
+  <!-- navigation header -->
+  <header>
+    <a href="index.html"><img src="images/logo3.PNG" class="logo"></a>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="about.html">about me</a></li>
+      <li><a href="service.html">services</a></li>
+      <li><a href="contact.html" class="active">contact</a></li>
+    </ul>
+    <!-- menu icon hamburger -->
+    <div class="menu-btn">
+        <div class="menu-btn-burger"></div>
+    </div>
+  </header>
+  <!-- hero section -->
+  <section>
+    <div class="wrapper banner-content">
+      <div class="wrapper-word">
+        <h3 id="wrapper">Contact me<h3>  
+        <h6>Let's talk</h6>      
+      </div>
+      <!-- site loader -->
+      <div class="loader-wrapper">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- page content -->
+  <section>
+    <div class="container" id="form-container">
+      <div class="row contact-form">
+        <div class="col-md-8">
+          <div class="text-box">
+            <h5>Send message</h5>
+            <h5>Contact Me and be sure of a solution!</h5>         
+            <div class="social-handles">
+              <p>I appreciate you for finding me, be rest assured of a response within 24 Business hours </p>
+                <p><a href="https://www.instagram.com/_tomzyofficial/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></p>
+                <p><a href="mailto:tomzyofficial54@gmail.com"><i class="fa fa-envelope"></i> tomzyofficial54@gmail.com</a></p>
+                <p><a href=" https://api.whatsapp.com/send?phone=2349066194749"><i class="fa fa-whatsapp"></i> Whatsapp</a></p>
+                <p><a href="https://www.linkedin.com/in/chukwuebuka-ibeh-2a7312239/" target="_blank"><i class="fa fa-linkedin"></i> Linkedin</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-stamp">
+        <div class="site-year">Tomzywork4u &copy; <span id="footer-year">2021</span></div>
+          <div class="social-media">
+            <a href="https://www.instagram.com/_tomzyofficial/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href=" https://api.whatsapp.com/send?phone=2349066194749" target="_blank"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/chukwuebuka-ibeh-2a7312239/" target="_blank"><i class="fa fa-linkedin"></i></a>
+          </div>
+      </div>
+    </div>
+    <!-- back to top -->
+    <div class="back-to-top" id="scroll-top" onclick="myFunction()" title="Back to top">
+      <div class="top"></div>
+    </div>
+  </footer>
+  <script src="app.js" ></script>
+</body>
+</html>
