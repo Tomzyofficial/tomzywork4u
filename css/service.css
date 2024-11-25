@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  color: rgb(58, 56, 56);
+}
+
+/* hero section */
+.banner-content {
+  height: 50vh;
+  background-image: url("../images/keyboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: oblique;
+  background-position: center;
+}
+
+.wrapper-word {
+  transform: translate(25vw, 15vh);
+  background: transparent;
+}
+
+/* page contents */
+.contents {
+  margin-top: 50px;
+}
+
+.image-responsive img {
+  width: 100%;
+  height: 50vh;
+
+}
+
+.text-box p {
+  line-height: 30px;
+}
+
+/* media query */
+@media screen and (max-width: 991px) {
+
+  /* hero section */
+  .banner-content {
+    height: 30vh !important;
+  }
+
+  .wrapper-word {
+    transform: translate(0);
+    margin: 10vh auto;
+    background: transparent;
+  }
+}
+
+@media (width: 820px) {
+  .wrapper-word {
+    margin: -20px auto;
+  }
+}
+
+@media (width: 768px) {
+  .wrapper-word {
+    margin: -20px auto;
+  }
+}
+
+@media (width: 912px) {
+  .wrapper-word {
+    margin: -20px auto;
+  }
+}
