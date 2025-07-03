@@ -8,7 +8,7 @@ $(document).ready(function () {
 // site loader
 var setTimeOut = setTimeout(() => {
   $(".loader-wrapper").fadeToggle();
-}, 1500);
+}, 500);
 
 // navigation animation scroll
 document.addEventListener("scroll", function () {

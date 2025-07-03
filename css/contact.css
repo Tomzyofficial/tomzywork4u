@@ -1,8 +1,8 @@
 /* hero section */
-.body {
+/* .body {
   background-color: white;
   color: #000;
-}
+} */
 
 .banner-content {
   height: 50vh;
@@ -20,9 +20,9 @@
 
 /* page content */
 #form-container {
-  border: 8px dashed lightblue;
+  border: 8px dashed #CCCCCC;
   margin-top: 8rem;
-  color: lightblue;
+  color: #CCCCCC;
 
 }
 
@@ -40,7 +40,7 @@
 
 .social-handles p a {
   text-decoration: none;
-  color: lightblue;
+  color: #CCCCCC;
 }
 
 .text-box h5 {

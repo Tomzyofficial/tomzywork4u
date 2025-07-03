@@ -1,7 +1,7 @@
-.body {
+/* .body {
   background-color: white;
   color: rgb(58, 56, 56);
-}
+} */
 
 /* hero section */
 .banner-content {
@@ -9,7 +9,6 @@
   background-image: url("../images/keyboard.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-style: oblique;
   background-position: center;
 }
 
@@ -32,68 +31,22 @@
   width: 100%
 }
 
-.work-process {
-  margin-top: 50px;
+#work-process {
+  margin-top: 100px;
 }
 
-.work-process .scheduling {
+#work-process .scheduling {
   margin-bottom: 30px;
 }
 
-.first h2 {
-  background: orange;
+.first p, .second p, .third p, .fourth p, .fifth p, .sixth p {
+  background: #CCCCCC;
+  color: black;
   padding: 10px 20px;
   width: fit-content;
   height: fit-content;
   margin: 0 auto;
   height: fit-content;
-  border-end-end-radius: 15px;
-}
-
-.second h2 {
-  background: darkolivegreen;
-  padding: 10px 20px;
-  width: fit-content;
-  height: fit-content;
-  margin: 0 auto;
-  height: fit-content;
-  border-end-end-radius: 15px;
-}
-
-.third h2 {
-  background: lightblue;
-  padding: 10px 20px;
-  width: fit-content;
-  height: fit-content;
-  margin: 0 auto;
-  height: fit-content;
-  border-end-end-radius: 15px;
-}
-
-.fourth h2 {
-  background: rgb(107, 104, 104);
-  padding: 10px 20px;
-  width: fit-content;
-  height: fit-content;
-  margin: 0 auto;
-  border-end-end-radius: 15px;
-}
-
-.fifth h2 {
-  background: brown;
-  padding: 10px 20px;
-  width: fit-content;
-  height: fit-content;
-  margin: 0 auto;
-  border-end-end-radius: 15px;
-}
-
-.sixth h2 {
-  background: darkcyan;
-  padding: 10px 20px;
-  width: fit-content;
-  height: fit-content;
-  margin: 0 auto;
   border-end-end-radius: 15px;
 }
 
